@@ -1,0 +1,5 @@
+- insert:
+    - id: paiwarp-creator
+      name: paiwarp-dsh-creator
+      config:
+        runRoot: cases/paiwarp-creator/runs

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PaiWarp Creator">
+  <rect width="64" height="64" rx="15" fill="#131820"/>
+  <path d="M15 18h34a4 4 0 0 1 4 4v22a4 4 0 0 1-4 4H15a4 4 0 0 1-4-4V22a4 4 0 0 1 4-4Z" fill="#1d2735" stroke="#6ea8ff" stroke-width="2"/>
+  <path d="m21 28 6 5-6 5M31 38h10" fill="none" stroke="#dce8ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6"/>
+  <path d="m47 13 2.2 5.1L54 20l-4.8 1.9L47 27l-2.2-5.1L40 20l4.8-1.9L47 13Z" fill="#f6c453"/>
+  <circle cx="52" cy="31" r="2.2" fill="#78d6a5"/>
+</svg>

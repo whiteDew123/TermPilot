@@ -1,0 +1,43 @@
+{
+  "name": "paiwarp-dsh-creator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PaiWarp 创造版：在本机真实终端复跑 TermPilot 第二章计划模式教程，保留可离线打开的截图、录屏和教程副本。",
+  "type": "module",
+  "main": "./host.js",
+  "exports": {
+    ".": "./host.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "host.js",
+    "client.js",
+    "creator_runner.py",
+    "creator_terminal.py",
+    "creator_chapter2.py",
+    "terminal.html",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dependencies": {
+    "@xterm/xterm": "6.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
